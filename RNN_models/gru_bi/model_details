@@ -1,0 +1,68 @@
+ comments: dip_imu_nn training on birnnBiRNN(
+  (relu): ReLU()
+  (pre_fc): Linear(in_features=20, out_features=256, bias=True)
+  (lstm): GRU(256, 256, num_layers=2, batch_first=True, dropout=0.3, bidirectional=True)
+  (post_fc): Linear(in_features=512, out_features=60, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+no of batches-- 86 
+epoch no ----------> 0 training loss 1.1227538585662842 
+epoch no ----------> 0 validation loss 1.1584620475769043 
+epoch no ----------> 1 training loss 0.911036491394043 
+epoch no ----------> 1 validation loss 1.0315362215042114 
+epoch no ----------> 2 training loss 0.8197469711303711 
+epoch no ----------> 2 validation loss 1.127943992614746 
+epoch no ----------> 3 training loss 0.8059695959091187 
+epoch no ----------> 3 validation loss 1.1109510660171509 
+epoch no ----------> 4 training loss 0.7702364325523376 
+epoch no ----------> 4 validation loss 1.0279988050460815 
+epoch no ----------> 5 training loss 0.7202257513999939 
+epoch no ----------> 5 validation loss 0.9887433052062988 
+epoch no ----------> 6 training loss 0.7029551267623901 
+epoch no ----------> 6 validation loss 0.9587993025779724 
+epoch no ----------> 7 training loss 0.707466185092926 
+epoch no ----------> 7 validation loss 0.9596659541130066 
+epoch no ----------> 8 training loss 0.6698991656303406 
+epoch no ----------> 8 validation loss 0.948496401309967 
+epoch no ----------> 9 training loss 0.6403909921646118 
+epoch no ----------> 9 validation loss 0.872248649597168 
+epoch no ----------> 10 training loss 0.634463369846344 
+epoch no ----------> 10 validation loss 0.8092784881591797 
+epoch no ----------> 11 training loss 0.6267446279525757 
+epoch no ----------> 11 validation loss 0.8169774413108826 
+epoch no ----------> 12 training loss 0.6127630472183228 
+epoch no ----------> 12 validation loss 0.8551362156867981 
+epoch no ----------> 13 training loss 0.6101312637329102 
+epoch no ----------> 13 validation loss 0.8032388687133789 
+epoch no ----------> 14 training loss 0.5997357964515686 
+epoch no ----------> 14 validation loss 0.8019360899925232 
+epoch no ----------> 15 training loss 0.5835705399513245 
+epoch no ----------> 15 validation loss 0.802376925945282 
+epoch no ----------> 16 training loss 0.573969841003418 
+epoch no ----------> 16 validation loss 0.8681961894035339 
+epoch no ----------> 17 training loss 0.5683358311653137 
+epoch no ----------> 17 validation loss 0.8012158274650574 
+epoch no ----------> 18 training loss 0.5575919151306152 
+epoch no ----------> 18 validation loss 0.8172533512115479 
+epoch no ----------> 19 training loss 0.5571458339691162 
+epoch no ----------> 19 validation loss 0.8222510814666748 
+epoch no ----------> 20 training loss 0.5510675311088562 
+epoch no ----------> 20 validation loss 0.8123390674591064 
+epoch no ----------> 21 training loss 0.5571747422218323 
+epoch no ----------> 21 validation loss 0.9548254609107971 
+epoch no ----------> 22 training loss 0.5440422892570496 
+epoch no ----------> 22 validation loss 0.8755088448524475 
+epoch no ----------> 23 training loss 0.5563478469848633 
+epoch no ----------> 23 validation loss 0.9149622917175293 
+epoch no ----------> 24 training loss 0.539972186088562 
+epoch no ----------> 24 validation loss 0.8394147753715515 
+epoch no ----------> 25 training loss 0.5465074777603149 
+epoch no ----------> 25 validation loss 0.8900756239891052 
+epoch no ----------> 26 training loss 0.5216121077537537 
+epoch no ----------> 26 validation loss 0.9129424095153809 
+epoch no ----------> 27 training loss 0.5290940999984741 
+epoch no ----------> 27 validation loss 0.9415034651756287 
+epoch no ----------> 28 training loss 0.5089437961578369 
+epoch no ----------> 28 validation loss 0.9284213185310364 
+epoch no ----------> 29 training loss 0.5199724435806274 
+epoch no ----------> 29 validation loss 0.9761098027229309 
