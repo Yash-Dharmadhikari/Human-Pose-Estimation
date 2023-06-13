@@ -1,0 +1,28 @@
+# Arguments for training Bidirectional LSTM;
+network: LSTM
+run_name: lstm_bi
+train: True
+bidirectional: True
+epochs: 30
+
+# Arguments for training Unidirectional LSTM;
+network: LSTM
+run_name: lstm_uni
+train: True
+bidirectional: False
+epochs: 30
+
+# Arguments for training Bidirectional GRU;
+network: GRU
+run_name: gru_bi
+train: True
+bidirectional: True
+epochs: 30
+
+
+# Arguments for training Unidirectional GRU;
+network: GRU
+run_name: gru_uni
+train: True
+bidirectional: False
+epochs: 30
