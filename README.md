@@ -2,7 +2,6 @@
 In this project, I use Deep Learning Arctiectectures(RNN, LSTM, GRU)  to predict human poses subject to Computer Vision limitations like occlusion, intrusiveness, and illumination changes.
 
 
-# A Comparative Analysis of IMU based Motion Prediction Methods
 
 To explore the effects of the different types of network architectures on the human pose estimation, we implement four
 different architectures: (1) Bidirectional LSTM, (2) Unidirectional LSTM, (3) Bidirectional GRU, (4) Unidirectional
