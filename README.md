@@ -27,5 +27,7 @@ python3 DIP_IMU_NN_BiRNN.py --run-name <name_of_run_you_wish_to_plot>
 ```
 <figure>
   <img src="./plots.png" alt="Ablation Study Results">
-  <figcaption>Ablation Study Results</figcaption>
+  <figcaption>
+    <div style="text-align: center;">Ablation Study Results</div>
+  </figcaption>
 </figure>
