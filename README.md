@@ -25,8 +25,7 @@ If you just wish to plot the data obtained from previously trained models, use t
 ```bash
 python3 DIP_IMU_NN_BiRNN.py --run-name <name_of_run_you_wish_to_plot> 
 ```
-![Ablation Study results](./plots.png)
 <figure>
-  <img src="./plots.png" alt="Alt Text">
+  <img src="./plots.png" alt="Ablation Study Results">
   <figcaption>Your Text Label Here</figcaption>
 </figure>
