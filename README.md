@@ -1,4 +1,7 @@
 # A Comparative Analysis of IMU-based Motion Prediction Methods
+<figure>
+  <img src="./Misc/g1091.png" alt="Ablation Study Results">
+</figure>
 
 Quantitative measurements of a person’s pose during activities of daily living could provide useful information
 for many applications. In recent years, wearable sensors have become common, with possible applications in
@@ -33,5 +36,5 @@ python3 DIP_IMU_NN_BiRNN.py --run-name <name_of_run_you_wish_to_plot>
 # Ablation Study Results
 
 <figure>
-  <img src="./plots.png" alt="Ablation Study Results">
+  <img src="./Misc/plots.png" alt="Ablation Study Results">
 </figure>
